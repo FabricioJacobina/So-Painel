@@ -1,0 +1,31 @@
+h1 {
+  max-width: 1040px;
+  text-align: center;
+  margin: 64px auto;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.services1 {
+  display: flex;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+}
+.services li {
+  list-style: none;
+  margin: 24px;
+  text-align: initial;
+}
+.doubt {
+  text-align: center;
+  margin-top: 84px;
+}
+@media screen and (max-width: 799px) {
+  .services1 {
+    flex-direction: column;
+  }
+  .doubt {
+    padding: 0 24px;
+  }
+}

@@ -1,0 +1,23 @@
+footer {
+  background-color: #565656;
+  display: flex;
+  flex-direction: column;
+}
+footer span {
+  padding: 6px;
+  color: #eeeef0;
+  font-size: 1rem;
+}
+footer span a {
+  text-decoration: none;
+  color: #eeeef0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "IBM Plex Mono", monospace;
+}
+@media screen and (max-width: 799px) {
+  footer span,
+  footer span a {
+    font-size: 0.725rem;
+  }
+}
